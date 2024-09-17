@@ -26,6 +26,7 @@ a,
   transition: all 300ms ease;
 }
 
+
 /* DESKTOP NAV */
 
 nav,
@@ -36,7 +37,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 10vh;
 }
 
 .nav-links {
@@ -54,7 +55,6 @@ a {
 a:hover {
   color: grey;
   text-decoration: underline;
-  text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
 }
 
@@ -293,6 +293,18 @@ section {
   bottom: 2.5rem;
 }
 
+.arrows_experience {
+  position: absolute;
+  right: -5rem;
+  bottom: -3rem;
+}
+
+.arrows_about {
+  position: absolute;
+  right: -5rem;
+  bottom: 0.5rem;
+}
+
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -312,6 +324,10 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+/* SKILL SECTION */
+#skills {
+  position: relative;
 }
 
 /* EXPERIENCE SECTION */
@@ -345,7 +361,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: left;
   gap: 0.5rem;
 }
 
